@@ -19,16 +19,16 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `mansainfotech`
+-- Database: `pawanmeena`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `mansainfotech`
+-- Table structure for table `pawanmeena`
 --
 
-CREATE TABLE `mansainfotech` (
+CREATE TABLE `pawanmeena` (
   `id` int(11) NOT NULL,
   `username` varchar(256) NOT NULL,
   `email` varchar(256) NOT NULL,
@@ -42,9 +42,9 @@ CREATE TABLE `mansainfotech` (
 --
 
 --
--- Indexes for table `mansainfotech`
+-- Indexes for table `pawanmeena`
 --
-ALTER TABLE `mansainfotech`
+ALTER TABLE `pawanmeena`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -52,9 +52,9 @@ ALTER TABLE `mansainfotech`
 --
 
 --
--- AUTO_INCREMENT for table `mansainfotech`
+-- AUTO_INCREMENT for table `pawanmeena`
 --
-ALTER TABLE `mansainfotech`
+ALTER TABLE `pawanmeena`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 

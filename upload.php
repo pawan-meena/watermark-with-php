@@ -10,7 +10,7 @@ file_put_contents($image_name, $data);
 $img = imagecreatefrompng($image_name);
 $white = imagecolorallocate($img, 0, 0, 0);
 $font = "./fonts/open-sans.light.ttf";
-imagettftext($img, 25, 0, 130, 30, $white, $font, "mansaInfotech");
+imagettftext($img, 25, 0, 105, 100, $white, $font, "PawanMeena");
 imagejpeg($img, 'watermark/'.$image_name , 100);
 echo 'watermark/'.$image_name;
 }
